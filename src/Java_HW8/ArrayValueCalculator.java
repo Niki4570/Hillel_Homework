@@ -17,7 +17,7 @@ public class ArrayValueCalculator {
                 try {
                     sum += Integer.parseInt(arr[i][j]);
                 } catch (NumberFormatException e) {
-                    throw new ArrayDataException(e);
+                    throw new ArrayDataException("Error, matrix contains incorrect data", e);
                 }
             }
         }
