@@ -9,7 +9,7 @@ public class ArrayDataException extends Exception{
         super(message);
     }
 
-    public ArrayDataException(Throwable cause) {
-        super(cause);
+    public ArrayDataException(String message, Throwable cause) {
+        super(message, cause);
     }
 }
