@@ -1,5 +1,6 @@
 package Java_HW10;
 
+import java.lang.Math;
 import org.example.task_10.MavenExample;
 
 public class Main {
